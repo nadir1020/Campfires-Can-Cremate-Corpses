@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>//ThingDef[defName = "Campfire"]/recipes</xpath>
+		<value>
+			<li>CremateCorpseCampfire</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>//RecipeDef[defName = "CremateCorpse"]</xpath>
+		<attribute>Name</attribute>
+		<value>CremateCorpse</value>
+	</Operation>
+	
+</Patch>
